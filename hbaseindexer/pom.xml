@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>customization.hyren</groupId>
+  <artifactId>hbase-indexer-hyren</artifactId>
+  <version>1.0</version>
+
+  <name>hbase-indexer-hyren</name>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+  </properties>
+
+  <repositories>
+    <repository>
+      <id>cloudera</id>
+      <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
+    </repository>
+  </repositories>
+
+  <dependencies>
+    <!-- https://mvnrepository.com/artifact/com.ngdata/hbase-indexer-engine -->
+    <dependency>
+      <groupId>com.ngdata</groupId>
+      <artifactId>hbase-indexer-engine</artifactId>
+      <version>1.5-cdh5.16.2</version>
+    </dependency>
+  </dependencies>
+
+</project>
